@@ -6,7 +6,7 @@
 
 ## Usage
 
-Simply use the element tag "wistia-uploader" and the required attribute "access-token". 
+Simply use the element tag "wistia-uploader" and pass your Wistia API access token as an attribute "access-token". 
 
 ```html
 <wistia-uploader access-token="your token access token here"></wistia-uploader>
