@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Wistia Uploader Demo</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+		<link rel='stylesheet prefetch' href='https://blueimp.github.io/jQuery-File-Upload/css/jquery.fileupload.css'>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body ng-app="demo">
+	  <div class="row text-center">
+	    <h2>This is a sample application for wistia upload directive!</h2>
+	    <p> For the example to work properly please insert a valid access token in the attribute access-token at the wistia-uploader tag.
+	      <br>
+	      <br> You can add as many videos as you want but you have to add one at a time.
+	    </p>
+	    <div>
+	      <wistia-uploader access-token="c674999f7525b86ea1da8bd6094f51de77cbbbe688d200c950c2557a0322ceff"></wistia-uploader>
+	    </div>
+	  </div>
+
+	  <script charset="ISO-8859-1" src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+		<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.1/js/jquery.fileupload.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.1/js/jquery.fileupload-ui.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/blueimp-file-upload/9.12.1/js/jquery.fileupload-process.min.js'></script>
+		<script src="js/wistiaUploader.directives.js"></script>
+		<script src="js/app.js"></script>
+  </body>
+</html>

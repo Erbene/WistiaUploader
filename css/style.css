@@ -1,0 +1,11 @@
+.progress {
+  margin-top: 15px;
+  width: 20%;
+  margin: 15px auto;
+}
+#myvideo {
+  margin: 15px auto;
+}
+#myvideo > div {
+  margin-bottom: 15px;
+}
